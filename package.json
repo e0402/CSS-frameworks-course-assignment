@@ -1,0 +1,29 @@
+{
+  "name": "css-frameworks-course-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e0402/CSS-frameworks-course-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e0402/CSS-frameworks-course-assignment/issues"
+  },
+  "homepage": "https://github.com/e0402/CSS-frameworks-course-assignment#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
