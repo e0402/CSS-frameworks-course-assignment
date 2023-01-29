@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link href="/dist/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Whazzup | Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+          <i
+          class="fas fa-user-friends fa-1x mx-2 ms-3"
+          style="color: #ffffff"
+        ></i>
+          <a class="navbar-brand me-5" href="home.html">Whazzup</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active white" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white" href="profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white" href="index.html">Log-out</a>
+              </li>
+            </ul>
+            <form class="d-flex mx-4" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search for something..."
+                aria-label="Search"
+              />
+              <button class="btn btn-two btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <main class="m-5">
+      <section class="container d-flex align-items-center justify-content-center mb-5" style="margin-top: 100px">
+        <div class="card border-0" style="width: 42rem">
+          <div class="card-body">
+            <h1 class="mb-2">Whazz on ur mind?</h1>
+            <form action="" method="POST">
+              <div>
+                <label for="description" class="mb-2 mt-3">Write something...</label>
+                <textarea
+                  rows="5"
+                  class="form-control"
+                  name="description"
+                  placeholder="This is a very interesting post..."
+                ></textarea>
+              </div>
+              <div style="padding-top: 0.5rem">
+                <button type="submit" class="btn btn-one" style="width: 150px">Publish</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Card-1 -->
+      <section class="container d-flex align-items-center justify-content-center mb-5">
+        <div class="card" style="max-width: 42rem">
+          <div class="card-body">
+            <!-- Data -->
+            <div class="d-flex mb-3">
+              <a href="">
+                <img src="images/profile-pic.jpeg" class="border rounded-circle me-2"
+                  alt="A man facing left with glasses and beard against turqoise background" style="height: 40px" />
+              </a>
+              <div>
+                <a href="" class="text-dark mb-0">
+                  <strong>No Name</strong>
+                </a>
+                <a href="" class="text-muted d-block" style="margin-top: -6px">
+                  <small>5 min</small>
+                </a>
+              </div>
+            </div>
+            <!-- Description -->
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+          <!-- Media -->
+          <div class="bg-image hover-overlay ripple rounded-0" data-mdb-ripple-color="light">
+            <img src="images/nature-1.jpg" class="w-100"  style="margin-bottom: 5px" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+            <div class="mx-4 mt-3 mb-3">
+                <ul class="list-unstyled d-flex justify-content-between mb-0 pe-xl-5">
+                    <li>
+                      <i class="far fa-comment"></i>
+                    </li>
+                    <li><i class="fas fa-retweet"></i><span class="small ps-2">0</span></li>
+                    <li><i class="far fa-heart"></i><span class="small ps-2">99</span></li>
+                    <li>
+                      <i class="far fa-share-square"></i>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Card-2 -->
+     <section class="container d-flex align-items-center justify-content-center mb-5">
+        <div class="card" style="max-width: 42rem">
+          <div class="card-body">
+            <!-- Data -->
+            <div class="d-flex mb-3">
+              <a href="">
+                <img src="images/profile-pic-2.jpg" class="border rounded-circle me-2"
+                  alt="A front facing red haired woman with glasses and a red jacket" style="height: 40px" />
+              </a>
+              <div>
+                <a href="" class="text-dark mb-0">
+                  <strong>No Name</strong>
+                </a>
+                <a href="" class="text-muted d-block" style="margin-top: -6px">
+                  <small>5h</small>
+                </a>
+              </div>
+            </div>
+            <!-- Description -->
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+          <!-- Media -->
+          <div class="bg-image hover-overlay ripple rounded-0" data-mdb-ripple-color="light">
+            <img src="images/nature-2.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+            <div class="mx-4 mt-3 mb-3">
+                <ul class="list-unstyled d-flex justify-content-between mb-0 pe-xl-5">
+                    <li>
+                      <i class="far fa-comment"></i>
+                    </li>
+                    <li><i class="fas fa-retweet"></i><span class="small ps-2">0</span></li>
+                    <li><i class="far fa-heart"></i><span class="small ps-2">1</span></li>
+                    <li>
+                      <i class="far fa-share-square"></i>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Card-3 -->
+     <section class="container d-flex align-items-center justify-content-center" style="margin-bottom: 150px">
+        <div class="card" style="max-width: 42rem">
+          <div class="card-body">
+            <!-- Data -->
+            <div class="d-flex mb-3">
+              <a href="">
+                <img src="images/profile-pic-3.jpg" class="border rounded-circle me-2"
+                  alt="A white, long haired man in a blue sweater resting head on his left hand" style="height: 40px" />
+              </a>
+              <div>
+                <a href="" class="text-dark mb-0">
+                  <strong>No Name</strong>
+                </a>
+                <a href="" class="text-muted d-block" style="margin-top: -6px">
+                  <small>2 days</small>
+                </a>
+              </div>
+            </div>
+            <!-- Description -->
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+          <!-- Media -->
+          <div class="bg-image hover-overlay ripple rounded-0" data-mdb-ripple-color="light">
+            <img src="images/nature-3.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+            <div class="mx-4 mt-3 mb-3">
+                <ul class="list-unstyled d-flex justify-content-between mb-0 pe-xl-5">
+                    <li>
+                      <i class="far fa-comment"></i>
+                    </li>
+                    <li><i class="fas fa-retweet"></i><span class="small ps-2">0</span></li>
+                    <li><i class="far fa-heart"></i><span class="small ps-2">1</span></li>
+                    <li>
+                      <i class="far fa-share-square"></i>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      </main>
+      <footer class="footer mt-auto py-5 green col-md-12 justify-content-center my-5 pt-5 text-muted text-center text-small mb-0 green">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#" class="text-white">Privacy</a></li>
+          <li class="list-inline-item"><a href="#" class="text-white">Terms</a></li>
+          <li class="list-inline-item"><a href="#" class="text-white">Help</a></li>
+        </ul>
+        <p class="mb-1 text-light">&copy; 2023 Whazzup</p>
+      </footer>
+  </body>
+</html>
